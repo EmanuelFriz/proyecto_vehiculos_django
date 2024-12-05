@@ -1,0 +1,1 @@
+# Este archivo indica que 'vehiculo' es un paquete de Python.

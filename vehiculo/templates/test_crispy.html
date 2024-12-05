@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Crispy</title>
+</head>
+<body>
+    <form method="post">
+        {% csrf_token %}
+        {{ form|crispy }}
+    </form>
+</body>
+</html>
